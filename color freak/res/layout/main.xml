@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ScrollView android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bgmain"
+    android:orientation="vertical" >
+    
+    
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/timebomb"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="60dp"
+            android:onClick="timebomb"
+            android:text="Time bomb" />
+
+        <Button
+            android:id="@+id/survival"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/timebomb"
+            android:layout_below="@+id/timebomb"
+            android:layout_marginTop="20dp"
+            android:onClick="survival"
+            android:text="survival" />
+
+        <Button
+            android:id="@+id/credits"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/timebomb"
+            android:layout_below="@+id/survival"
+            android:onClick="credits"
+            android:layout_marginTop="20dp"
+            android:text="Credits" />
+
+        <TextView
+            android:id="@+id/mhtp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/survival"
+            android:layout_marginRight="76dp"
+            android:onClick="howtoplay"
+            android:text="HOW TO PLAY"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/mhs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/mhtp"
+            android:layout_alignLeft="@+id/mhtp"
+            android:layout_marginBottom="20dp"
+            android:onClick="highscore"
+            android:text="HIGH SCORE"
+            android:textAppearance="?android:attr/textAppearanceLarge" android:paddingTop="10dp"/>
+    </RelativeLayout>
+    
+  </ScrollView>
+   
+</LinearLayout>

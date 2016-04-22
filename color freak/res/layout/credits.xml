@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/credits"
+    android:orientation="vertical" >
+    
+            <TextView
+            android:id="@+id/credithead"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dedicated to my friends, who are really mean to me"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <ScrollView 
+    	android:layout_width="match_parent"
+    	android:layout_height="fill_parent">
+
+        <TextView
+            android:id="@+id/creditmatter"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:typeface="serif"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        
+    </ScrollView>
+
+</LinearLayout>

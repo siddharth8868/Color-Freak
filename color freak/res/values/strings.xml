@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, ColorfreaksActivity!</string>
+    <string name="app_name">Color freaks</string>
+    
+    <string name="credit">
+    Sankshit\n
+    Pavan\n
+    Charith\n
+    Sarvani\n
+    Vamshi\n
+    Ali\n
+    Kilashnath\n
+    Sindoora\n
+    Pranay\n
+    Ajith\n
+    Shruthi\n
+    Sujai\n
+</string>
+        
+	<string name="timemode">
+	    In timebomd mode u should select the option which has the name of the color of the question,
+	    at first u need to select the time for the game,if you failed to select time default 60sec will be selected. 
+	    Once the game starts the count down begins for the selected time,
+	    after the completion of time you will be awarded with the final score,
+	    in this mode even if u select the wrong option the game progress
+	</string>
+	
+	<string name="survive">
+	    In survive mode u should select the option which has the name of the color of the question,
+	    the game commences with the default count down of 60sec, 
+	    addition time will be added to the original time relative to your speed of answering,
+	    the game ends when u select a wrong option or by completion of time. 
+	    After the completion of time you will be awarded with the final score
+	     
+	</string>
+</resources>
